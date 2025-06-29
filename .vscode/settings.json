@@ -1,0 +1,23 @@
+{
+  "solidity.defaultCompiler": "localFile",
+  "solidity.compileUsingRemoteVersion": "v0.8.19",
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.remappings": [
+    "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+    "@forge-std/=lib/forge-std/src/",
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/"
+  ],
+  "solidity.formatter": "prettier",
+  "solidity.monoRepoSupport": false,
+  "search.exclude": {
+    "lib": true,
+    "cache": true,
+    "out": true,
+    "broadcast": true
+  },
+  "files.associations": {
+    "*.sol": "solidity"
+  }
+}
