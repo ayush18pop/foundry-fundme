@@ -5,18 +5,7 @@ libs = ["lib"]
 remappings = [
     '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/',
     'foundry-devops/=lib/foundry-devops/',
-    'forge-std/=lib/forge-std/src/'
-]
-ffi = true
-
-[profile.ci]
-src = "src"
-out = "out"
-libs = ["lib"]
-remappings = [
-    '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/',
-    'foundry-devops/=lib/foundry-devops/',
-    'forge-std/=lib/forge-std/src/'
+    'forge-std/=lib/forge-std/src/',
 ]
 ffi = false
 
