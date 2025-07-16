@@ -16,7 +16,6 @@ A decentralized crowdfunding smart contract built with Foundry framework. This p
 - **Foundry**: Ethereum development framework
 - **Solidity**: Smart contract programming language
 - **Chainlink**: Decentralized price feeds
-- **OpenZeppelin**: Security standards and utilities
 
 ## Smart Contracts
 
